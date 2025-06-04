@@ -1,7 +1,7 @@
-# **EXPERIMENT NO. 1**
-## Android Development Environment 
+# EXPERIMENT NO. 1
+# Android Development Environment 
 # To study design aspects of development environment like Android, iOS 
-Introduction 
+**Introduction** 
 This experiment aims to study the design aspects of mobile development environments, focusing on Android and iOS. The goal is to understand the tools, frameworks, and best practices used in the development of mobile applications for these platforms. 
 ## Android Development Environment 
 ### 1. Programming Languages 
