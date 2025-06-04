@@ -1,4 +1,4 @@
-# EXPERIMENT NO. 1
+# EXPERIMENT NO. 1 
 # Android Development Environment 
 # To study design aspects of development environment like Android, iOS 
 **Introduction** 
@@ -44,42 +44,42 @@ This experiment aims to study the design aspects of mobile development environme
  
 
  
-# EXPERIMENT NO. 2    
+# EXPERIMENT NO. 2 
 # Android Development Environment 
 # To Setup Android Studio2 and study its Basic Components 
 ## 1. Downloading and Installing Android Studio 
 - **Download Android Studio :** Visit the official Android Studio download page 
 (https://developer.android.com/studio) and download the latest version for your operating system. 
  
-![Figure 2.1 Download Android Studio](2.1.jpg)
+![](android-file-pictures/2.1.jpg)
 
 Figure 2.1 Download Android Studio 
 - **Install Android Studio :** Run the downloaded installer and follow the on-screen instructions to install Android Studio. Ensure you install the necessary SDK components during the installation process. 
  
-![Figure 2.2 Android Studio Installation](android-file-pictures/2.2.jpg)
+![](android-file-pictures/2.2.jpg)
 
 Figure 2.2 Android Studio Installation 
 ## 2. Setting Up Android Studio 
 - **Launch Android Studio :** Open Android Studio after installation. 
 - **Welcome Screen :** On the welcome screen, you have various options.  
 
-![](2.3.jpg)
+![](android-file-pictures/2.3.jpg)
 
 Figure 2.3 Android Studio Setup 
 - **Create a New Project :** Select "Start a new Android Studio project." 
 
-![](2.4.jpg) 
+![](android-file-pictures/2.4.jpg) 
 
 Figure 2.4 Creating a new project 
 - **Configure Your Project :** Provide the project name, package name, save location, language (Java/Kotlin), and minimum API level. 
 - **Select Activity Template :** Choose an activity template, like "Empty Activity," for simplicity.  
 
-![](2.5.jpg)
+![](android-file-pictures/2.5.jpg)
 
 Figure 2.5 New Project 
 - **Finish Setup :** Click "Finish" to complete the setup and open your new project. 
 
-![](2.6.jpg)
+![](android-file-pictures/2.6.jpg)
 
 Figure 2.6 Finish Setup 
 ## 3. Understanding Basic Components of Android Studio 
@@ -104,7 +104,7 @@ Figure 2.6 Finish Setup
     - **Choose a virtual device or connect a physical device via USB.**
     - **Android Studio will build and install the app on the selected device.** 
 
-![](2.7.jpg)
+![](android-file-pictures/2.7.jpg)
 
 Figure 2.7 Creating a Basic App  
  
@@ -191,7 +191,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 ```
 **OUTPUT :-** 
 
-![](4.1.jpg)
+![](android-file-pictures/4.1.jpg)
 
 Figure 4.1 Constrait Layout  
 --- 
@@ -224,7 +224,7 @@ error -->
 ---
 **OUTPUT :-** 
 
-![](4.2.jpg)
+![](android-file-pictures/4.2.jpg)
 
 Figure 4.2 Linear Layout  
  
@@ -433,7 +433,7 @@ Figure 4.2 Linear Layout
 ``` 
 **OUTPUT :-**
 
-![](4.3jpg)
+![](android-file-pictures/4.3jpg)
 
 Figure 4.3 Relative Layout 
 
@@ -703,7 +703,7 @@ Figure 4.3 Relative Layout
 ```
 **OUTPUT :-** 
 
-![](4.4.jpg)
+![](android-file-pictures/4.4.jpg)
 
 Figure 4.4 Table Layout 
 
@@ -868,7 +868,7 @@ public class FragmentB extends Fragment {
 
 **OUTPUT :-** 
  
-![](5.1.jpg)
+![](android-file-pictures/5.1.jpg)
 
 Figure 5.1 Fragments
  
@@ -1028,15 +1028,15 @@ android:layout_height="match_parent" tools:context=".NewActivity">
 
 **OUTPUT:** 
 
-![](6.1.jpg)
+![](android-file-pictures/6.1.jpg)
 
 Figure 6.1 Registration Form 
 
-![](6.2.jpg)
+![](android-file-pictures/6.2.jpg)
 
 Figure 6.2 Login Form 
 
-![](6.3.jpg)
+![](android-file-pictures/6.3.jpg)
   
 Figure 6.3 Main activity after login 
  
@@ -1118,15 +1118,15 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 **Output:** 
-![](7.1.jpg)
+![](android-file-pictures/7.1.jpg)
   
 Figure 7.1 Main page 
 
-![](7.2.jpg)
+![](android-file-pictures/7.2.jpg)
 
 Figure 7.2 Activity State 1 
 
-![](7.3.jpg)
+![](android-file-pictures/7.3.jpg)
  
 Figure 7.3 Activity State 2 
 
@@ -1166,15 +1166,15 @@ Toast.LENGTH_SHORT).show();
 
 **OUTPUT:** 
 
-![](8.1.jpg)
+![](android-file-pictures/8.1.jpg)
 
 Figure 8.1 Main Activity 
 
-![](8.2.jpg)
+![](android-file-pictures/8.2.jpg)
  
 Figure 8.2 Permission Dialog Box 
  
-![](8.3.jpg)
+![](android-file-pictures/8.3.jpg)
  
 Figure 8.3 Toast Message for Permission 
 
@@ -1185,7 +1185,7 @@ Figure 8.3 Toast Message for Permission
 # To perform debugging and testing of android app using tools like Logcat, Android debug bridge, DDMS Logcat is an important tool in Android studio. Logcat helps developers to debug the code when an application is not running or has crashed. Steps to run Logact in Android Studio:- 
 ## 1. Create new project in android studio and select empty activity. 
 
-![](9.1.jpg)
+![](android-file-pictures/9.1.jpg)
 
 Figure 9.1 Creating a Project 
 ## 2. Now go to activity main.xml. By default we get a textview so just set the id of this textview. 
@@ -1225,7 +1225,7 @@ public class MainActivity extends AppCompatActivity {
 ## 4. Now connect any physical or virtual device to android studio and click on Run button. The application is installed however immediately crashed. 
 ## 5. Open Logcat and again click on run button. In logcat some line of code is generated so we have to find out the line that tells us which line of code contains error. Sometimes we need to scroll up in locat window to find out the error. Examine the below picture carefully and an orange color arrow indicate an error line. 
 
-![](9.2.jpg)
+![](android-file-pictures/9.2.jpg)
 
 Figure 9.2 Logcat After Running 
  
@@ -1238,6 +1238,7 @@ Log.e("MainActivity5","Inside onCreate()");
 ``` 
 ## 7. Now run the application and open logcat window. In logcat we have a search option where we can check easily if message is printed or not by writing TAG name in search option. 
 
-![](9.3.jpg)
+![](android-file-pictures/9.3.jpg)
 
 Figure 9.3 Logcat Window 
+ 
