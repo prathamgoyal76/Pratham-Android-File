@@ -56,7 +56,7 @@ This experiment aims to study the design aspects of mobile development environme
 Figure 2.1 Download Android Studio 
 - **Install Android Studio :** Run the downloaded installer and follow the on-screen instructions to install Android Studio. Ensure you install the necessary SDK components during the installation process. 
  
-![](2.2.jpg)
+![](android file pictures/2.2.jpg)
 
 Figure 2.2 Android Studio Installation 
 ## 2. Setting Up Android Studio 
