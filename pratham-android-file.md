@@ -107,7 +107,7 @@ Figure 2.6 Finish Setup
 ![](android-file-pictures/2.7.jpg)
 
 Figure 2.7 Creating a Basic App  
- 
+
 ---
 
 # EXPERIMENT NO. 3 
@@ -158,6 +158,8 @@ In Android User Interface (UI) design, XML (Extensible Markup Language) files ar
 - **Purpose:** Define different layouts for different screen sizes or orientations (e.g., portrait vs. landscape). 
 - **Components:** Similar to standard layout files but tailored for specific configurations. 
  
+---
+
 # EXPERIMENT NO. 4 
 # Android User Interface Design 
 # To implement different type of layouts like relative, grid, linear and table. 
@@ -708,6 +710,8 @@ Figure 4.3 Relative Layout
 
 Figure 4.4 Table Layout 
 
+---
+
 # EXPERIMENT NO. 5 
 # Apps Interactivity in Android 
 # To incorporate element of interactivity using Android Fragment and Intent Class 
@@ -796,8 +800,6 @@ public class MainActivity extends AppCompatActivity {
 **FragmentA.java** 
 ```java
 package com.example.my_exp5; 
-
-
  
 import android.content.Context; 
 import android.os.Bundle; 
@@ -872,7 +874,9 @@ public class FragmentB extends Fragment {
 ![](android-file-pictures/5.1.jpg)
 
 Figure 5.1 Fragments
- 
+
+---
+
 # EXPERIMENT NO. 6 
 # Persistent Data Storage 
 # To perform database connectivity of android app using SQLite Login and Signup form is created using SQLite database. 
@@ -1040,7 +1044,9 @@ Figure 6.2 Login Form
 ![](android-file-pictures/6.3.jpg)
   
 Figure 6.3 Main activity after login 
- 
+
+---
+
 # EXPERIMENT NO. 7 
 # Android Services and Threads 
 # To implement the concept of multithreading using Android Service class 
@@ -1131,6 +1137,8 @@ Figure 7.2 Activity State 1
  
 Figure 7.3 Activity State 2 
 
+---
+
 # EXPERIMENT NO. 8 
 # Android Security and Debugging 
 # To implement concept of permission and perform request for permission to access different hardware components of mobile 
@@ -1179,7 +1187,7 @@ Figure 8.2 Permission Dialog Box
  
 Figure 8.3 Toast Message for Permission 
 
-
+---
  
 # EXPERIMENT NO. 9 
 # Android Security and Debugging 
