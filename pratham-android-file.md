@@ -42,7 +42,7 @@ This experiment aims to study the design aspects of mobile development environme
 - **XCTest :** For unit and UI testing. 
 - **Quick/Nimble :** Popular third-party frameworks for behavior-driven development (BDD). 
  
-
+---
  
 # EXPERIMENT NO. 2 
 # Android Development Environment 
@@ -108,6 +108,7 @@ Figure 2.6 Finish Setup
 
 Figure 2.7 Creating a Basic App  
  
+---
 
 # EXPERIMENT NO. 3 
 # Android User Interface Design 
