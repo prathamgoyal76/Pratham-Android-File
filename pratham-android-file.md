@@ -44,7 +44,7 @@ This experiment aims to study the design aspects of mobile development environme
  
 
  
-# EXPERIMENT NO. 2  
+# EXPERIMENT NO. 2<br>
 # Android Development Environment 
 # To Setup Android Studio2 and study its Basic Components 
 ## 1. Downloading and Installing Android Studio 
